@@ -1,0 +1,680 @@
+/* Mobile and Tablet Role*/
+@media (max-width:767px) {}
+
+/* example to 320px screen */
+@media (max-width:350px) {}
+
+/* Small Screen Rules */
+
+@media (min-width:768px) and (max-width: 991px) {}
+
+/*  Medium Screen Rules */
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* Large Screen Rules */
+
+@media (min-width: 1200px) {}
+
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* End Global Rules */
+
+/* start header */
+.header {
+    background: url(../images/christmas-balls-6881386__340.jpg) no-repeat top center;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px #eee;
+   
+   
+}
+
+
+.header .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 222, 0.3);
+}
+/* end header */
+
+/* start my framework */
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs,
+.visible-md,
+.visible-sm,
+.visible-xl {
+    display: none;
+}
+
+.h1 {
+    font-size: 2em;
+    color: #6a6767;
+    text-transform: capitalize;
+   
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.marginl-r {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.res-ponseve {
+    line-height: 1.6;
+}
+
+.unstyled {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.image-thumnail {
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.circle-img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* end my framework */
+
+.header .overlay h1 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 4.4rem auto;
+    width: 200px;
+   
+}
+
+.header .overlay .plane {
+    width: 48%;
+    padding: 15px;
+    float: left;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.header .overlay p {
+
+    padding: 15px;
+    margin: 15px 1% 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+@media (max-width:767px) {}
+
+/* custom media not found on framework*/
+@media (max-width: 400px) {
+    .header .overlay h1 {
+        font-size: 1.5rem;
+        color: #00eee0;
+        margin-top: 50px;
+
+    }
+}
+
+
+/* Mobile and Tablet Role*/
+@media (max-width:767px) {
+
+    .header .overlay h1 {
+        font-size: 1.5rem;
+        color: #999;
+        margin-top: 50px;
+
+    }
+
+    .visible-xs {
+        display: block;
+    }
+
+    .header .overlay .plane {
+        float: none;
+        margin: 5px auto 5px;
+        /* margin-top: 15px !important; */
+
+    }
+
+
+    @media (min-width:992px) and (max-width:1199px) {
+
+        /*  Medium Screen Rules */
+        .container {
+            width: 970px;
+        }
+
+        .visible-sm {
+            display: block;
+        }
+
+    }
+
+    .header .overlay p {
+        margin: 0;
+        padding: 7px;
+        margin: 5px 1% 5px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        font-size: 12px;
+
+    }
+
+    .feat {
+        width: 100% !important;
+        margin: 15px 0;
+        padding: 5px;
+        background-color: #ddd;
+            }
+
+    .feat2, .feat3 {
+        padding: 5px;
+        background-color: #ddd;
+
+    }
+
+    .feature .feat {
+        text-align: center;
+    }
+
+    .about-us .res-ponseve {
+        text-align: center;
+        font-size: 14px;
+        padding: 0 1rem;
+    }
+
+}
+
+/*feature*/
+.feature {
+  padding: 50px 0;
+
+}
+
+.feat h2 {
+    text-transform: capitalize;
+
+}
+
+.feat h2 p {
+    line-height: 1.5;
+
+}
+
+.feat {
+    width: 30.3333%;
+    padding: 25px;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 1% 1%;
+
+}
+
+/* Small Screen Rules */
+
+@media (min-width:768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .feat:first-of-type {
+        width: 98% !important;
+        margin-bottom: 20px;
+        padding: 5px;
+        background-color: #777;
+
+    }
+
+    .feat:not(:first-of-type) {
+        width: 48% !important;
+        margin-bottom: 20px;
+        margin: 0 1%;
+        padding: 5px;
+        background-color: #666;
+
+    }
+
+}
+
+/*END Feature*/
+
+
+/*About-us*/
+.about-us {
+    padding: 50px 0;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .about-us .res-ponseve {
+        background-color: #ccc;
+        color: #999;
+    }
+
+    .about-us .res-ponseve {
+        font-size: 1.5rem !important;
+        font-weight: bold;
+    }
+
+}
+
+/*  Medium Screen Rules */
+@media (min-width:992px) and (max-width:1199px) {
+
+    .container {
+        width: 970px;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+}
+
+
+
+/*  Medium Screen Rules */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 970px;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .about-us .res-ponseve {
+        font-size: 1.5rem !important;
+        font-weight: bold;
+    }
+
+}
+
+/* Large Screen Rules */
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1170px;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .about-us .res-ponseve {
+        font-size: 1.7rem !important;
+        font-weight: bold;
+        text-align: center;
+    }
+
+}
+/*Start  potofilio*/
+
+.portofilio {
+    padding: 50px 0;
+ 
+}
+
+.portofilio .image img {
+    max-width: 100%;
+}
+
+@media (max-width:767px) {
+    .portofilio .image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px) {
+    .portofilio .image {
+        width: 50%;
+
+    }
+}
+
+@media (min-width:992px) {
+    .portofilio .image {
+        width: 33, 3333%;
+
+    }
+
+}
+
+@media (min-width:1200px) {
+    .portofilio .image {
+        width: 25%;
+    }
+}
+
+/*End Portofilio*/
+
+/* Start pricing table */
+
+.pricing-table {
+    padding: 20px 0;
+    background-color: #f6f6f6;
+}
+
+.pricing-table h2 {
+    margin: 0 0 35px
+}
+
+.pricing-plane {
+    border: 1px solid #fff;
+    padding: 20px 0;
+    position: relative;
+    background: linear-gradient(#e66465, #9198e5);
+
+}
+
+.pricing-plane h3 {
+    margin: 0 0 20px;
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.pricing-plane .pricing {
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.unstyled li {
+    color: #6f6d77;
+    font-size: 1.1rem;
+    margin: 0 0 10px;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .pricing-plane.float-l.pluse {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .pricing-plane.float-l.ultimate {
+        width: 50%;
+    }
+
+    .pricing-plane.float-l.Premium {
+        width: 50%;
+
+    }
+}
+
+@media (max-width:767px) {
+    .pricing-plane {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 10px;
+    }
+}
+
+/* @media (min-width:992px) {
+
+    .pricing-plane {
+        width: 32.6666%;
+    }
+
+    .pricing-plane:not(.ultimate) {
+        margin-right: 1%;
+    }
+
+    .pricing-plane.float-l.pluse {
+        left: 33.6666%;
+    }
+
+    .pricing-plane.float-l.Premium {
+        right: 33.6666%;
+    }
+} */
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .pricing-plane {
+        width: 32.6666%;
+    }
+
+    .pricing-plane.float-l.Premium {
+        left: 32.6666%;
+
+    }
+
+
+    .pricing-plane.float-l.ultimate {
+        right: 32.6666%;
+        margin: 0 1%;
+        color: #9999;
+        background-color: #ccc;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .pricing-plane {
+        width: 32.6666%;
+    }
+
+    .pricing-plane.float-l.Premium {
+        background-color: #fff;
+        margin: 0 1%;
+    }
+
+    .pricing-plane.float-l.Premium:hover {
+        background-color: #9999;
+
+    }
+}
+
+/* End pricing table */
+
+/*Start Testmonials*/
+.testmonials {
+    padding: 50px 0;
+}
+
+.testmonials .h1 {
+    font-size: 30px;
+    color: #777;
+    margin: 0 0 35px;
+}
+
+.testmonials .person-say {
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 0 20px;
+}
+
+.testmonials .person-say .image {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.testmonials .person-say h3 {
+    margin: 20px 0 15px;
+}
+
+.testmonials .person-say p {
+    line-height: 1.5;
+    color: #777;
+    width: calc(100% - 130px);
+    margin: 0;
+}
+
+@media (max-width:767px) {
+    .testmonials .person-say .image {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+
+    .testmonials .person-say h3 {
+        float: none;
+        text-align: center;
+    }
+
+    .testmonials .person-say p {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .testmonials .person-say {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .testmonials .person-say:not(:first-of-type) .image,
+    .testmonials .person-say h3 {
+        float: none;
+        margin: auto;
+    }
+
+    .testmonials .person-say:not(:first-of-type) h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testmonials .person-say:not(:first-of-type) p {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .testmonials .person-say:not(:first-of-type) {
+        width: 49%;
+    }
+
+    .testmonials .person-say:last-of-type {
+        margin-left: 2%;
+    }
+
+    .testmonials .person-say:not(:first-of-type) {
+        width: 49%;
+
+    }
+
+    .testmonials .person-say.ali {
+        margin-left: 10%;
+    }
+}
+
+    @media (min-width:992px) {
+        .testmonials .person-say:first-of-type {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+    }
+
+    /*End Testmonials*/
+
+    .footer {
+        background-color: #333;
+        color: #eee;
+
+    }
+
+    .footer .copyright,
+    .footer .design {
+              padding: 20px;
+        text-align: center;
+    }
+
+    @media (min-width:768px) {
+        .footer .copyright,
+        .footer .design {
+            width:50%;
+        }
+
+    }
+
+    @media (max-width:767px) {
+        .footer .copyright,
+        .footer .design {
+            width: 100%;
+                     
+        }
+    }
